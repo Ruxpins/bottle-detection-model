@@ -1,4 +1,5 @@
 ﻿# Plastic Bottle Detection Model
+#***these instructions are not complete***
 
 This repository contains a YOLOv8 model trained to detect plastic bottles in images. The model was trained on a custom dataset using the Ultralytics YOLOv8 framework.
 
@@ -14,18 +15,15 @@ This repository contains a YOLOv8 model trained to detect plastic bottles in ima
 
 ## Usage
 1. Install requirements:
-   \\\ash
+   bash
    pip install ultralytics
-   \\\
 
 2. Download the model weights and use them with YOLOv8:
-   \\\python
    from ultralytics import YOLO
    model = YOLO('best.pt')
    results = model.predict('your_image.jpg')
-   \\\
 
 ## Project Structure
 - \data.yaml\: Dataset configuration file
-- \est.pt\: Best model weights (available in releases)
-- \	rain.py\: Training script
+- \test.pt\: Best model weights (available in releases)
+- \train.py\: Training script
