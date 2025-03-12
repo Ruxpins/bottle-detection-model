@@ -1,0 +1,6 @@
+﻿train: C:/Users/Chris/Downloads/Archive/Plastic Bottle Image Dataset/train/images
+val: C:/Users/Chris/Downloads/Archive/Plastic Bottle Image Dataset/valid/images
+test: C:/Users/Chris/Downloads/Archive/Plastic Bottle Image Dataset/test/images
+
+nc: 1
+names: ['bottle']
