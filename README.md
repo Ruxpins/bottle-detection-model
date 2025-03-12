@@ -1,7 +1,7 @@
 ﻿# Plastic Bottle Detection Model
 #***these instructions are not complete***
 
-This repository contains a YOLOv8 model trained to detect plastic bottles in images. The model was trained on a custom dataset using the Ultralytics YOLOv8 framework.
+This repository contains a YOLOv8 model trained to detect plastic bottles in images. The model was trained on a custom dataset using the Ultralytics YOLOv8 framework. It is relatively small in size so it can be used on a Sony IMX500 image sensor.
 
 ## Model Details
 - Base Model: YOLOv8n
